@@ -208,3 +208,54 @@ header {
 }
 
 /* FIM SOBRE */
+
+/* PROJETOS */
+
+#projetos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 5rem 0rem 5rem 0rem;
+  background: var(--dark-50);
+}
+
+.projetos__title {
+  font: 600 2rem var(--title-font);
+  color: #ffffff;
+}
+
+.projetos__cards {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.projetos__cards__card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid var(--dark-30);
+  gap: 1.2rem;
+  background-color: var(--dark-50);
+  padding: 3rem 3rem;
+}
+
+.projetos__cards__card__title {
+  font: 600 1.6rem var(--title-font);
+  color: #ffff;
+}
+
+.projetos__cards__card__subtitle {
+  font: 400 1rem var(--subtitle-font);
+  width: 15rem;
+  color: #ffffffd6;
+}
+
+.projetos__cards__card__button {
+  color: #66c190;
+  font: 400 1.1rem var(--title-font);
+}
+/* FIM PROJETOS */
