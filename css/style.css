@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* VARIÁVEIS */
+:root {
+  --title-font: DM Sans, sans-serif;
+  --subtitle-font: Inter, sans-serif;
+
+  --dark-10: #303030;
+  --dark-20: #2b2b2b;
+  --dark-30: #1f1f1f;
+  --dark-40: #1b1c1e;
+  --dark-50: #111111;
+}
+/* FIM VARIÁVEIS */
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 35rem;
+  padding: 1rem 0rem;
+  background: var(--dark-50);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.header__perfil {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.header__perfil__imagem {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.header__perfil__nome {
+  font: 700 1.2rem DM Sans, sans-serif;
+  color: #ffffff;
+}
+
+.header__links {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.header__links__link {
+  font: 600 1rem Inter, sans-serif;
+  color: #ffffff;
+}
+
+/* FIM HEADER */
+
+/* INICIO */
+#inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem 0rem 22rem 0rem;
+  background: var(--dark-50);
+  position: relative;
+}
+
+.inicio__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.inicio__text__title {
+  font: 600 3rem var(--title-font);
+  color: #ffffff;
+}
+
+.inicio__text__subtitle {
+  font: 400 1rem var(--subtitle-font);
+  color: #ffffff;
+  width: 35rem;
+  text-align: center;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+.inicio__text__button {
+  color: #ffffff;
+  padding: 0.9rem 3.5rem;
+  background-color: #0ac503;
+  border-radius: 4px;
+  font: 600 1.2rem var(--title-font);
+}
+
+.inicio__redes {
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--dark-40);
+  border: 1px solid var(--dark-10);
+  height: 12rem;
+}
+
+.inicio__redes i {
+  font-size: 2rem;
+  padding: 0rem 0.5rem;
+  color: #ffffff;
+}
+
+/* FIM INICIO */
