@@ -15,7 +15,7 @@
   --dark-10: #303030;
   --dark-20: #2b2b2b;
   --dark-30: #1f1f1f;
-  --dark-40: #1b1c1e;
+  --dark-40: #151515;
   --dark-50: #111111;
 }
 /* FIM VARIÁVEIS */
@@ -95,7 +95,7 @@ header {
 .inicio__text__button {
   color: #ffffff;
   padding: 0.9rem 3.5rem;
-  background-color: #0ac503;
+  background-color: #66c190;
   border-radius: 4px;
   font: 600 1.2rem var(--title-font);
 }
@@ -118,3 +118,93 @@ header {
 }
 
 /* FIM INICIO */
+/* SOBRE */
+#sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-40);
+  padding: 0rem 0rem 10rem 0rem;
+}
+
+.sobre__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 0rem 10rem 0rem;
+}
+
+.sobre__text__title {
+  font: 600 3rem var(--title-font);
+  padding: 3rem 0rem 0rem 0rem;
+  color: #ffffff;
+}
+
+.sobre__text__subtitle {
+  font: 400 1rem var(--subtitle-font);
+  text-align: center;
+  color: #ffffff;
+}
+
+.sobre__content {
+  display: flex;
+  gap: 5rem;
+}
+
+.sobre__content__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.sobre__content__text__title {
+  font: 600 2rem var(--title-font);
+  color: #ffffff;
+}
+
+.sobre__content__text__subtitle {
+  font: 400 0.9rem var(--subtitle-font);
+  width: 35rem;
+  color: #ffffffd6;
+}
+
+#subtitle3 {
+  padding: 0rem 0rem 2.5rem 0rem;
+}
+
+.sobre__content__text__button {
+  color: #ffffff;
+  padding: 0.9rem 3.5rem;
+  background-color: #66c190;
+  border-radius: 4px;
+  font: 600 1.2rem var(--title-font);
+}
+
+.sobre__content__skills {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sobre__content__skills__title {
+  color: #ffffff;
+  font: 600 2rem var(--title-font);
+}
+.sobre__content__skills__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 35rem;
+}
+
+.sobre__content__skills__cards__card {
+  color: #ffff;
+  font: 400 1rem var(--title-font);
+  background: var(--dark-10);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+/* FIM SOBRE */
