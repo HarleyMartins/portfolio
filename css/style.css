@@ -73,6 +73,25 @@ header {
   position: relative;
 }
 
+.inicio__card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--dark-10);
+  background: var(--dark-40);
+  border-radius: 5px;
+  padding: 1.2rem;
+}
+
+.inicio__card__imagem {
+  background-image: url("/assets/imagens/author.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 4px;
+}
+
 .inicio__text {
   display: flex;
   flex-direction: column;
