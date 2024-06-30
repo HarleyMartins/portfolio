@@ -70,7 +70,6 @@ header {
   align-items: center;
   padding: 15rem 0rem 22rem 0rem;
   background: var(--dark-50);
-
   position: relative;
 }
 
@@ -81,12 +80,12 @@ header {
   gap: 0.8rem;
 }
 
-.inicio__text__title {
+.inicio__card__text__title {
   font: 600 3rem var(--title-font);
   color: #ffffff;
 }
 
-.inicio__text__subtitle {
+.inicio__card__text__subtitle {
   font: 400 1rem var(--subtitle-font);
   color: #ffffff;
   width: 35rem;
@@ -94,7 +93,7 @@ header {
   padding: 0rem 0rem 2rem 0rem;
 }
 
-.inicio__text__button {
+.inicio__card__text__button {
   color: #ffffff;
   padding: 0.9rem 3.5rem;
   background-color: #66c190;
