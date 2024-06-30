@@ -259,3 +259,95 @@ header {
   font: 400 1.1rem var(--title-font);
 }
 /* FIM PROJETOS */
+
+/* FORMULÁRIO */
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--dark-40);
+  padding: 4rem 0rem;
+}
+
+.contato__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contato__text__title {
+  font: 600 1.6rem var(--title-font);
+  color: #ffffff;
+}
+
+.contato__text__subtitle {
+  font: 400 1.1rem var(--title-font);
+  color: #ffffff;
+}
+
+.formulario {
+  background: var(--dark-30);
+  width: 50rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  align-items: start;
+}
+
+.formulario__name,
+.formulario__email,
+.formulario__textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+label {
+  font: 600 0.9rem var(--title-font);
+  color: #ffffffcd;
+}
+
+.input {
+  border: none;
+  background: var(--dark-40);
+  width: 100%;
+  font: 400 1rem var(--subtitle-font);
+  padding: 1rem 3rem 1rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  border: 1px solid var(--dark-10);
+}
+
+.input::placeholder,
+textarea::placeholder {
+  color: #b1b1b1;
+}
+
+textarea {
+  resize: none;
+  background: var(--dark-40);
+  color: #ffffff;
+  outline: none;
+  border: 1px solid var(--dark-20);
+  padding: 0.8rem 1rem;
+  font: 400 1rem var(--subtitle-font);
+}
+
+.formulario__submitbtn {
+  color: #ffffff;
+  padding: 0.9rem 3.5rem;
+  background-color: #66c190;
+  border-radius: 4px;
+  font: 600 1.2rem var(--title-font);
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+/* FIM FORMULÁRIO */
