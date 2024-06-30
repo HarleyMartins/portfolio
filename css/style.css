@@ -76,6 +76,7 @@ header {
 .inicio__card {
   display: flex;
   justify-content: space-between;
+  gap: 2.5rem;
   border: 1px solid var(--dark-10);
   background: var(--dark-40);
   border-radius: 5px;
@@ -92,24 +93,29 @@ header {
   border-radius: 4px;
 }
 
-.inicio__text {
+.inicio__card__text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 0.8rem;
 }
 
 .inicio__card__text__title {
-  font: 600 3rem var(--title-font);
+  font: 600 2rem var(--title-font);
   color: #ffffff;
 }
 
 .inicio__card__text__subtitle {
-  font: 400 1rem var(--subtitle-font);
+  font: 400 1rem var(--title-font);
   color: #ffffff;
-  width: 35rem;
-  text-align: center;
-  padding: 0rem 0rem 2rem 0rem;
+  width: 25rem;
+}
+
+.inicio__card__text__paragrafo {
+  color: #9ca3af;
+  width: 30rem;
+  font: 400 1rem var(--subtitle-font);
+  line-height: 1.5rem;
 }
 
 .inicio__card__text__button {
