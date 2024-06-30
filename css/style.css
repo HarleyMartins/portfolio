@@ -27,7 +27,7 @@ header {
   align-items: center;
   gap: 35rem;
   padding: 1rem 0rem;
-  background: var(--dark-50);
+  background: none;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -68,7 +68,10 @@ header {
   justify-content: center;
   align-items: center;
   padding: 15rem 0rem 22rem 0rem;
-  background: var(--dark-50);
+  /* background: var(--dark-50); */
+  background-image: url("/assets/imagens/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
