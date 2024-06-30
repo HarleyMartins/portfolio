@@ -69,10 +69,8 @@ header {
   justify-content: center;
   align-items: center;
   padding: 15rem 0rem 22rem 0rem;
-  /* background: var(--dark-50); */
-  background-image: url("/assets/imagens/background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: var(--dark-50);
+
   position: relative;
 }
 
