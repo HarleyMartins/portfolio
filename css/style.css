@@ -130,6 +130,7 @@ header {
 .inicio__redes {
   position: absolute;
   left: 0;
+  top: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
