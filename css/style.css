@@ -68,9 +68,10 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15rem 0rem 22rem 0rem;
+  padding: 15rem 0rem 0rem 0rem;
   background: var(--dark-50);
   position: relative;
+  height: auto;
 }
 
 .inicio__card {
