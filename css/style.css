@@ -242,9 +242,15 @@ i:hover {
 }
 
 .sobre__content__text__subtitle {
-  font: 400 0.9rem var(--subtitle-font);
+  font: 400 1rem var(--subtitle-font);
+  line-height: 1.5rem;
   width: 35rem;
   color: #ffffffd6;
+}
+
+.sobre__content__text__subtitle > a {
+  color: #66c190;
+  font: 600 1rem var(--title-font);
 }
 
 #subtitle3 {
