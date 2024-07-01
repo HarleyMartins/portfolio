@@ -148,6 +148,49 @@ i:hover {
   color: #66c190;
 }
 
+.inicio__mouse {
+  position: relative;
+  bottom: 0;
+}
+
+.mouse {
+  width: 3rem;
+  height: 5rem;
+  border: 2px solid #ffffff;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mouse::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 1.3s infinite;
+  -webkit-animation: wheel 1.3s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px;
+  }
+}
+
 /* FIM INICIO */
 /* SOBRE */
 #sobre {
