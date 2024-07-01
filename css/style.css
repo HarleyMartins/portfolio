@@ -152,6 +152,7 @@ i:hover {
 .inicio__mouse {
   position: relative;
   bottom: 0;
+  padding: 3rem 0rem 5rem 0rem;
 }
 
 .mouse {
@@ -171,7 +172,7 @@ i:hover {
   top: 7px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #ffffff;
+  background-color: #66c190;
   border-radius: 50%;
   opacity: 1;
   animation: wheel 1.3s infinite;
