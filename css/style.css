@@ -266,6 +266,7 @@ i:hover {
 .sobre__content {
   display: flex;
   gap: 5rem;
+  padding: 0rem 0rem 2.5rem 0rem;
 }
 
 .sobre__content__text {
