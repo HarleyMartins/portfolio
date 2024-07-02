@@ -194,7 +194,45 @@ i:hover {
   }
 }
 
+/* IMAGENS ABSOLUTAS DO INICIO */
+#triangulo {
+  position: absolute;
+  bottom: 8rem;
+  right: 10rem;
+}
+
+#ondasVerdes {
+  position: absolute;
+  left: -2rem;
+  top: 8rem;
+  width: 8rem;
+}
+
+#bolaCortada {
+  position: absolute;
+  left: -5rem;
+  bottom: -0.2rem;
+  width: 10rem;
+}
+
+#bolasVerdes {
+  position: absolute;
+  bottom: 11.5rem;
+  left: 17.2rem;
+  width: 4.5rem;
+}
+
+#triangulos {
+  position: absolute;
+  top: 11rem;
+  right: 5rem;
+  width: 4rem;
+}
+
+/* FIM IMAGENS ABSOLUTAS */
+
 /* FIM INICIO */
+
 /* SOBRE */
 #sobre {
   display: flex;
