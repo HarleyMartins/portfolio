@@ -241,6 +241,7 @@ i:hover {
   align-items: center;
   background-color: var(--dark-40);
   padding: 0rem 0rem 10rem 0rem;
+  position: relative;
 }
 
 .sobre__text {
@@ -327,6 +328,14 @@ i:hover {
   padding: 0.5rem 1rem;
   border-radius: 4px;
 }
+
+/* IMAGENS ABSOLUTAS */
+#onda {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* FIM IMAGENS */
 
 /* FIM SOBRE */
 
