@@ -58,6 +58,27 @@ header {
 .header__links__link {
   font: 600 1rem Inter, sans-serif;
   color: #ffffff;
+  transition: color 0.5s ease;
+  position: relative;
+}
+
+.header__links__link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #66c190;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__links__link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 /* FIM HEADER */
