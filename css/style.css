@@ -713,7 +713,7 @@ textarea {
   /* FIM SOBRE */
   /* PROJETOS */
   #projetos {
-    padding: 2.5rem 0rem 0rem 0rem;
+    padding: 2.5rem 0rem 2.5rem 0rem;
   }
   .projetos__cards {
     grid-template-columns: 1fr;
