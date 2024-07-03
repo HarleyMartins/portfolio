@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Verifica se o usuário está rolando para baixo
     if (scrollPosition > lastScrollPosition) {
-      header.style.backgroundColor = "#111111" // Preto
-      header.style.padding = "1.2rem 0rem"
+      header.style.backgroundColor = "#1f1f1f" // Preto
+      header.style.padding = ""
     } else {
       // Volta à cor original quando atingir o topo
       if (scrollPosition === 0) {
