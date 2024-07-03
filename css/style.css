@@ -587,17 +587,24 @@ header {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 0rem;
+  padding: 1rem 0rem;
 }
 
-#bolasVerdes {
-  left: 0;
+.header__perfil__imagem {
+  width: 2.5rem;
+}
+.header__perfil__nome {
+  font-size: 1.1rem;
+}
+
+.header__links__link {
+  font-size: 0.9rem;
 }
 
 .inicio__card {
   flex-direction: column;
-  width: 15rem;
-  padding: 0;
+  width: 20rem;
+  padding: 1rem;
 }
 
 .inicio__card__imagem {
