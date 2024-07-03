@@ -146,6 +146,11 @@ header {
   background-color: #66c190;
   border-radius: 4px;
   font: 600 1rem var(--title-font);
+  transition: padding 1s ease;
+}
+
+.inicio__card__text__button:hover {
+  padding: 0.9rem 4.5rem;
 }
 
 .inicio__redes {
