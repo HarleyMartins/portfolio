@@ -659,23 +659,50 @@ textarea {
   /* FIM INICIO */
 
   /* SOBRE */
+
+  .sobre__text {
+    padding: 0rem 0rem 2.5rem 0rem;
+  }
+
+  .sobre__text__title {
+    font-size: 2.5rem;
+  }
+
+  .sobre__text__subtitle {
+    width: 20rem;
+  }
+
   .sobre__content {
     flex-direction: column;
+    width: 100%;
   }
 
   .sobre__content__text {
-    width: 10rem;
+    align-items: start;
+    padding: 0rem 0rem 0rem 1.5rem;
+    width: 100%;
+    min-width: 10rem;
+    max-width: 30rem;
+  }
+
+  .sobre__content__text__title {
+    font-size: 2rem;
   }
 
   .sobre__content__text__subtitle {
-    width: 10rem;
+    width: 100%;
+  }
+  /* FIM SOBRE CONTENT TEXT */
+  /* SOBRE CONTENT SKILLS */
+  .sobre__content__skills {
+    align-items: center;
+    justify-content: center;
   }
 
   .sobre__content__skills__cards {
-    flex-direction: column;
-    align-items: start;
-    width: 10rem;
+    width: 70%;
   }
+  /* FIM SOBRE CONENT SKILLS */
   /* FIM SOBRE */
   .projetos__cards {
     grid-template-columns: 1fr;
