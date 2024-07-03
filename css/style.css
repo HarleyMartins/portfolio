@@ -789,6 +789,10 @@ textarea {
   .footer__content__redes__title {
     padding: 0;
   }
+
+  .footer__copy {
+    text-align: center;
+  }
   /* FIM FOOTER */
 }
 
