@@ -750,7 +750,8 @@ textarea {
 
   .contato__text__subtitle {
     text-align: center;
-    width: 25rem;
+    min-width: 20rem;
+    max-width: 30rem;
   }
 
   .formulario {
