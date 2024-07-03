@@ -739,8 +739,22 @@ textarea {
   }
   /* FIM PROJETOS */
 
+  /* FORMULÁRIO */
+  #contato {
+    padding: 3rem 7rem;
+    align-items: start;
+  }
+  .contato__text {
+    align-items: start;
+    width: 100%;
+  }
+
   .formulario {
-    width: 1rem;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 5px;
+    min-width: 15rem;
+    max-width: 35rem;
   }
 
   .footer__content {
