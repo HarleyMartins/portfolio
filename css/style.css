@@ -61,7 +61,7 @@ header {
 
 .header__links__link {
   font: 600 1rem Inter, sans-serif;
-  color: #ffffff;
+  color: #ffffffa0;
   transition: color 0.5s ease;
   position: relative;
 }
@@ -78,6 +78,10 @@ header {
   transform-origin: right;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
+}
+
+.header__links__link:hover {
+  color: #ffffff;
 }
 
 .header__links__link:hover::before {
