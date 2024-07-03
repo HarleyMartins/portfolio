@@ -705,6 +705,10 @@ textarea {
   .sobre__content__skills__cards {
     width: 70%;
   }
+
+  #onda {
+    width: 100%;
+  }
   /* FIM SOBRE CONENT SKILLS */
   /* FIM SOBRE */
   /* PROJETOS */
