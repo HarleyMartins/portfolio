@@ -20,6 +20,10 @@
 }
 /* FIM VARIÁVEIS */
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* HEADER */
 header {
   display: flex;
