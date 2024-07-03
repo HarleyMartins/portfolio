@@ -656,7 +656,9 @@ textarea {
   .inicio__redes {
     display: none;
   }
+  /* FIM INICIO */
 
+  /* SOBRE */
   .sobre__content {
     flex-direction: column;
   }
@@ -674,7 +676,7 @@ textarea {
     align-items: start;
     width: 10rem;
   }
-
+  /* FIM SOBRE */
   .projetos__cards {
     grid-template-columns: 1fr;
   }
@@ -695,5 +697,5 @@ textarea {
     width: 10rem;
   }
 }
-/* FIM INICIO */
+
 /* FIM MEDIA QUERIES */
