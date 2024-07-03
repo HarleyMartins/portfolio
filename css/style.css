@@ -741,21 +741,26 @@ textarea {
 
   /* FORMULÁRIO */
   #contato {
-    padding: 3rem 7rem;
-    align-items: start;
+    align-items: center;
   }
   .contato__text {
-    align-items: start;
+    align-items: center;
     width: 100%;
   }
 
+  .contato__text__subtitle {
+    text-align: center;
+    width: 25rem;
+  }
+
   .formulario {
-    width: 100%;
+    width: 90%;
     padding: 2rem;
     border-radius: 5px;
-    min-width: 15rem;
+    min-width: 5rem;
     max-width: 35rem;
   }
+  /* FIM CONTATO */
 
   .footer__content {
     flex-direction: column;
