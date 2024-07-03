@@ -576,3 +576,74 @@ textarea {
 }
 
 /* FIM FOTER */
+
+/* MEDIA QUERIES */
+header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0rem;
+}
+
+#bolasVerdes {
+  left: 0;
+}
+
+.inicio__card {
+  flex-direction: column;
+  width: 15rem;
+  padding: 0;
+}
+
+.inicio__card__imagem {
+  width: 100%;
+  object-fit: cover;
+}
+
+.inicio__card__text__subtitle {
+  width: 10rem;
+}
+
+.inicio__card__text__paragrafo {
+  width: 10rem;
+}
+
+.sobre__content {
+  flex-direction: column;
+}
+
+.sobre__content__text {
+  width: 10rem;
+}
+
+.sobre__content__text__subtitle {
+  width: 10rem;
+}
+
+.sobre__content__skills__cards {
+  flex-direction: column;
+  align-items: start;
+  width: 10rem;
+}
+
+.projetos__cards {
+  grid-template-columns: 1fr;
+}
+
+.projetos__cards__card {
+  padding: 0;
+}
+
+.formulario {
+  width: 1rem;
+}
+
+.footer__content {
+  flex-direction: column;
+}
+
+.footer__content__text__subtitle {
+  width: 10rem;
+}
+/* FIM MEDIA QUERIES */
