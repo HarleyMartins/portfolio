@@ -707,13 +707,33 @@ textarea {
   }
   /* FIM SOBRE CONENT SKILLS */
   /* FIM SOBRE */
+  /* PROJETOS */
+  #projetos {
+    padding: 2.5rem 0rem 0rem 0rem;
+  }
   .projetos__cards {
     grid-template-columns: 1fr;
+    gap: 5rem;
+    width: 100%;
   }
 
   .projetos__cards__card {
-    padding: 0;
+    padding: 1rem 1.5rem;
+    width: 80%;
+    min-width: 15rem;
+    max-width: 30rem;
+    height: auto;
   }
+
+  .projetos__cards__card__title {
+    font-size: 1.5rem;
+  }
+
+  .projetos__cards__card__subtitle {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  /* FIM PROJETOS */
 
   .formulario {
     width: 1rem;
