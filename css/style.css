@@ -607,7 +607,7 @@ textarea {
   /* INICIO */
   .inicio__card {
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     padding: 1rem;
     min-width: 100px;
     max-width: 500px;
