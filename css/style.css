@@ -622,6 +622,20 @@ textarea {
     display: none;
   }
 
+  #triangulos {
+    top: 8rem;
+    right: 1rem;
+  }
+
+  #triangulo {
+    right: 1rem;
+    top: 38rem;
+  }
+
+  #bolasVerdes {
+    left: 2rem;
+  }
+
   .sobre__content {
     gap: 0rem;
   }
