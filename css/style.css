@@ -582,6 +582,68 @@ textarea {
 /* FIM FOTER */
 
 /* MEDIA QUERIES */
+
+/* 768px ~ 1024px  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    gap: 0rem;
+  }
+
+  .inicio__card {
+    min-width: 20rem;
+    max-width: 45rem;
+  }
+
+  .inicio__card__imagem {
+    width: 100%;
+    object-fit: cover;
+    min-width: 10rem;
+    max-width: 25rem;
+  }
+
+  .inicio__card__text {
+    width: 50%;
+  }
+
+  .inicio__card__text__title {
+    font-size: 1.5rem;
+  }
+
+  .inicio__card__text__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .inicio__card__text__paragrafo {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .inicio__redes {
+    display: none;
+  }
+
+  .sobre__content {
+    gap: 0rem;
+  }
+
+  .sobre__content__skills__cards {
+    width: 10rem;
+  }
+
+  .projetos__cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .formulario {
+    width: 25rem;
+  }
+
+  .footer__content {
+    flex-direction: column;
+  }
+}
+
+/* 320px ~ 768px */
 @media (min-width: 320px) and (max-width: 768px) {
   /* HEADER */
   header {
