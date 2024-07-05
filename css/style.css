@@ -173,6 +173,15 @@ header {
   height: 12rem;
 }
 
+.inicio__card__redesSociais {
+  display: flex;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.inicio__card__redesSociais i {
+  font-size: 2rem;
+}
+
 i {
   font-size: 2rem;
   padding: 0rem 0.5rem;
