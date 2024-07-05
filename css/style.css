@@ -583,6 +583,44 @@ textarea {
 
 /* MEDIA QUERIES */
 
+/* 1025px ~ 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  header {
+    gap: 23rem;
+  }
+
+  #ondasVerdes {
+    top: 7rem;
+  }
+  #triangulos {
+    top: 7rem;
+    right: 1rem;
+  }
+  #bolasVerdes {
+    left: 2rem;
+  }
+  #triangulo {
+    right: 0;
+    bottom: 5rem;
+  }
+
+  .sobre__text {
+    padding: 0rem 0rem 6rem 0rem;
+  }
+
+  .sobre__content__skills__cards {
+    width: 20rem;
+  }
+
+  .projetos__cards__card {
+    padding: 1rem 2rem;
+  }
+
+  .footer__content {
+    gap: 15rem;
+  }
+}
+
 /* 768px ~ 1024px  */
 @media (min-width: 768px) and (max-width: 1024px) {
   header {
