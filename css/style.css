@@ -587,6 +587,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) {
   header {
     gap: 0rem;
+    flex-direction: column;
   }
 
   .inicio__card {
@@ -637,19 +638,42 @@ textarea {
   }
 
   .sobre__content {
-    gap: 0rem;
+    gap: 4rem;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sobre__content__text {
+    padding: 0rem 0rem 0rem 2rem;
+    width: 95%;
+    min-width: 20rem;
+    max-width: 60rem;
+  }
+  .sobre__content__text__subtitle {
+    width: 90%;
+  }
+
+  .sobre__content__skills {
+    align-items: center;
   }
 
   .sobre__content__skills__cards {
-    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
   }
 
   .projetos__cards {
     grid-template-columns: 1fr 1fr;
   }
 
+  .contato__text__subtitle {
+    width: 35rem;
+    text-align: center;
+  }
+
   .formulario {
-    width: 25rem;
+    max-width: 45rem;
   }
 
   .footer__content {
