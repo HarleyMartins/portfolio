@@ -174,7 +174,7 @@ header {
 }
 
 .inicio__card__redesSociais {
-  display: flex;
+  display: none;
   padding: 1rem 0rem 0rem 0rem;
 }
 
@@ -684,6 +684,10 @@ textarea {
     left: 2rem;
   }
 
+  .inicio__card__redesSociais {
+    display: flex;
+  }
+
   .sobre__content {
     gap: 4rem;
     flex-direction: column;
@@ -802,6 +806,10 @@ textarea {
 
   .inicio__redes {
     display: none;
+  }
+
+  .inicio__card__redesSociais {
+    display: flex;
   }
   /* FIM INICIO */
 
