@@ -136,7 +136,7 @@ header {
 }
 
 .inicio__card__text__subtitle {
-  font: 400 1rem var(--title-font);
+  font: 400 1.2rem var(--title-font);
   color: #ffffff;
   width: 25rem;
 }
@@ -658,7 +658,7 @@ textarea {
   }
 
   .inicio__card__text__subtitle {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .inicio__card__text__paragrafo {
