@@ -21,3 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
     lastScrollPosition = scrollPosition
   })
 })
+
+const butttonDropdown = document
+  .getElementById("btnDropdown")
+  .addEventListener("click", showDropdown)
+
+function showDropdown(ev) {
+  ev.preventDefault()
+  const dropdownContent = document.getElementById("dropdown-content")
+  dropdownContent.classList.toggle("open")
+}
