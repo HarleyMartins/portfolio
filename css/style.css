@@ -240,7 +240,7 @@ i:hover {
 .mouse {
   width: 3rem;
   height: 5rem;
-  border: 2px solid #ffffff;
+  border: 2px solid #66eca4;
   border-radius: 60px;
   position: relative;
   overflow: hidden;
