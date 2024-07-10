@@ -788,6 +788,10 @@ textarea {
     font-size: 1.1rem;
   }
 
+  .header__links {
+    gap: 1rem;
+  }
+
   .header__links__link {
     font-size: 0.9rem;
   }
