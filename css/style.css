@@ -31,11 +31,10 @@ header {
   align-items: center;
   gap: 35rem;
   padding: 1rem 0rem;
-  background: none;
+  background: var(--dark-50);
   position: fixed;
   width: 100%;
   z-index: 10;
-  transition: 1s ease;
 }
 
 .header__perfil {
