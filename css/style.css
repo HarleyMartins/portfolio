@@ -623,7 +623,8 @@ textarea {
 }
 
 .footer__copy a {
-  color: #66c190;
+  color: #63eba2;
+  font-weight: 500;
 }
 
 /* FIM FOTER */
