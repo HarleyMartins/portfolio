@@ -14,61 +14,61 @@ const buttonLight = document
 
 function modoClaro() {
   header.style.backgroundColor = "#FFFF"
-  const h1 = document.querySelectorAll("h1").forEach((item) => {
+  var h1 = document.querySelectorAll("h1").forEach((item) => {
     item.style.color = "#000"
   })
-  const h2 = document.querySelectorAll("h2").forEach((item) => {
-    item.style.color = "#000"
-  })
-
-  const h3 = document.querySelectorAll("h3").forEach((item) => {
+  var h2 = document.querySelectorAll("h2").forEach((item) => {
     item.style.color = "#000"
   })
 
-  const p = document.querySelectorAll("p").forEach((item) => {
+  var h3 = document.querySelectorAll("h3").forEach((item) => {
     item.style.color = "#000"
   })
 
-  const headerLinks = document
+  var p = document.querySelectorAll("p").forEach((item) => {
+    item.style.color = "#000"
+  })
+
+  var headerLinks = document
     .querySelectorAll(".header__links__link")
     .forEach((item) => {
       item.style.color = "#000"
     })
 
-  const sectionInicio = document.getElementById("inicio")
+  var sectionInicio = document.getElementById("inicio")
   sectionInicio.style.backgroundColor = "#f4fcff"
 
-  const sectionSobre = document.getElementById("sobre")
+  var sectionSobre = document.getElementById("sobre")
   sectionSobre.style.backgroundColor = "#FFFFFF"
 
-  const sectionProjetos = document.getElementById("projetos")
+  var sectionProjetos = document.getElementById("projetos")
   sectionProjetos.style.backgroundColor = "#f4fcff"
 
-  const sectionContato = document.getElementById("contato")
+  var sectionContato = document.getElementById("contato")
   sectionContato.style.backgroundColor = "#FFFFFF"
 
-  const footer = document.querySelector("footer")
+  var footer = document.querySelector("footer")
   footer.style.backgroundColor = "#f9fdff"
 
-  const inicioCard = document.querySelector(".inicio__card")
+  var inicioCard = document.querySelector(".inicio__card")
   inicioCard.style.backgroundColor = "#FFF"
   inicioCard.style.border = "0.5px solid #66c190"
 
-  const cardProjetos = document
+  var cardProjetos = document
     .querySelectorAll(".projetos__cards__card")
     .forEach((item) => {
       item.style.backgroundColor = "#FFFF"
       item.style.border = "none"
     })
 
-  const formularioContato = document.querySelector(".formulario")
+  var formularioContato = document.querySelector(".formulario")
   formularioContato.style.backgroundColor = "#f4fcff"
 
-  const formularioLabel = document.querySelectorAll("label").forEach((item) => {
+  var formularioLabel = document.querySelectorAll("label").forEach((item) => {
     item.style.color = "#000"
   })
 
-  const formularioInput = document
+  var formularioInput = document
     .querySelectorAll(".formulario__name > input, .formulario__email > input")
     .forEach((item) => {
       item.style.backgroundColor = "#FFFFFF"
@@ -76,16 +76,16 @@ function modoClaro() {
       item.style.color = "#000"
     })
 
-  const formularioTextarea = document.querySelector("textarea")
+  var formularioTextarea = document.querySelector("textarea")
   formularioTextarea.style.background = "#FFF"
   formularioTextarea.style.border = "none"
 
-  const footerRedes = document
+  var footerRedes = document
     .querySelectorAll(".footer__content__redes__a > i")
     .forEach((item) => {
       item.style.color = "#000"
     })
 }
 
-const formularioButton = document.querySelector(".formulario__submitbtn")
+var formularioButton = document.querySelector(".formulario__submitbtn")
 formularioButton.style.backgroundColor = "#66c190"
