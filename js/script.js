@@ -85,7 +85,7 @@ function modoClaro() {
     .forEach((item) => {
       item.style.color = "#000"
     })
-}
 
-var formularioButton = document.querySelector(".formulario__submitbtn")
-formularioButton.style.backgroundColor = "#66c190"
+  var formularioButton = document.querySelector(".formulario__submitbtn")
+  formularioButton.style.backgroundColor = "#66c190"
+}
