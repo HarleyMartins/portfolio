@@ -795,6 +795,10 @@ textarea {
   .header__links__link {
     font-size: 0.9rem;
   }
+
+  #dropdown-content.open > button > p {
+    display: none;
+  }
   /* FIM HEADER */
 
   /* INICIO */
