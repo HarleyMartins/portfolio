@@ -5,7 +5,10 @@ function capturaInformacoes(ev) {
   let name = document.getElementById("name").value
   let email = document.getElementById("email").value
   let mensagem = document.getElementById("mensagem").value
-  console.log(name, email, mensagem)
+  if (name == "" && email == "" && mensagem == "") {
+    alert("Preencha todos os campos")
+    return
+  }
 
   enviaMensagem(name, email, mensagem)
 }
