@@ -20,6 +20,11 @@
 }
 /* FIM VARIÁVEIS */
 
+.bg-light {
+  background: rgb(241, 238, 238);
+  color: #000;
+}
+
 html {
   scroll-behavior: smooth;
 }
